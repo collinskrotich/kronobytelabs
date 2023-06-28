@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Button from '@/components/Button/Button'
 
 
 
@@ -11,7 +12,7 @@ export default function Home() {
          <p className={styles.desc}>We are a team of developers who are passionate about
           helping people building software that improves the lives of people.
           </p>
-          <button className={styles.button}>See Our Works</button>
+          <Button url="/portfolio" text="See our Portfolio"/>
       </div>
 
       <div className={styles.item}>
