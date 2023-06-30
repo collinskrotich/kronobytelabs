@@ -1,6 +1,23 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.content {
+
+}
+
+.title{
+    margin-bottom: 10px
+}
+
+.desc{
+    font-size: 18px;
+    color: #999;
 }
