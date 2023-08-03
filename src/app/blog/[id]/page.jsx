@@ -2,7 +2,7 @@ import React from 'react'
 
 const BlogPost = () => {
   return (
-    <div>BlogPost</div>
+    <div>BlogPost 1:27:00</div>
   )
 }
 
